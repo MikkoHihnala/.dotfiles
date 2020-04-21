@@ -6,7 +6,8 @@ export ZSH="/home/mikko/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case, # to know which specific one was loaded, run: echo $RANDOM_THEME # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+# ZSH_THEME="robbyrussell"
+ZSH_THEME="bira"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -106,3 +107,7 @@ compinit -d ~/.ZSH/cache/zcompdump-$ZSH_VERSION
 HISTSIZE=1000
 SAVEHIST=1000
 HISTFILE=~/.ZSH/cache/.history
+
+# Custom Setting from this point on:
+PROMPT='${ret_status} %{$fg[cyan]%}%~%{$reset_color%} $(git_prompt_info)'
+bindkey -v #use vimstyle editor
