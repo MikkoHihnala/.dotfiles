@@ -47,11 +47,14 @@ filetype plugin indent on    " required
 " CUSTOM SETTING BELOW!
 
 "au BufNew,BufEnter,BufRead *.cc,*.cpp,*.hpp 
-let g:ycm_confirm_extra_conf = 0
+"let g:ycm_confirm_extra_conf = 0
+set encoding=utf-8
 let g:ycm_global_extra_conf='/home/mikko/.vim/.ycm_extra_conf.py'
 set number
 syntax on 
 set hlsearch
+set ruler
+
 
 " autoclose 
 inoremap "" ""<left>
