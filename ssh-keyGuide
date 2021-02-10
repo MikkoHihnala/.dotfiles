@@ -1,0 +1,14 @@
+ssh-keygen -t ed25519 -C "mail@domain"
+
+
+
+#start ssh-agent
+if [ -z "$SSH_AUTH_SOCK" ]; then
+  eval "$(ssh-agent -s)"
+fi
+
+
+
+ssh-add ~/.ssh/id....
+
+#might need to cmhod 600 the id files for protection 
