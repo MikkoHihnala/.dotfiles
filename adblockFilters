@@ -1,0 +1,75 @@
+!remove subreddits from reddit.com
+reddit.com##.scrollerItem:has-text(r/AskReddit)
+reddit.com##.scrollerItem:has-text(r/memes)
+reddit.com##.scrollerItem:has-text(r/meme)
+reddit.com##.scrollerItem:has-text(r/memes)
+reddit.com##.scrollerItem:has-text(r/Showerthoughts)
+reddit.com##.scrollerItem:has-text(r/HolUp)
+reddit.com##.scrollerItem:has-text(r/nba)
+reddit.com##.scrollerItem:has-text(r/formula1)
+reddit.com##.scrollerItem:has-text(r/PoliticalHumor)
+reddit.com##.scrollerItem:has-text(r/Formula1)
+reddit.com##.scrollerItem:has-text(r/teenagers)
+reddit.com##.scrollerItem:has-text(r/TwoXChromosomes)
+reddit.com##.scrollerItem:has-text(r/WitchesVsPatriarchy)
+reddit.com##.scrollerItem:has-text(r/cursedcomments)
+reddit.com##.scrollerItem:has-text(r/TIHI)
+reddit.com##.scrollerItem:has-text(r/funny)
+reddit.com##.scrollerItem:has-text(r/atheism)
+reddit.com##.scrollerItem:has-text(r/shitposting)
+reddit.com##.scrollerItem:has-text(r/LeopardsAteMyFace)
+reddit.com##.scrollerItem:has-text(r/meirl)
+reddit.com##.scrollerItem:has-text(r/PrequelMemes)
+reddit.com##.scrollerItem:has-text(r/WhitePeopleTwitter)
+reddit.com##.scrollerItem:has-text(r/TheRightCantMeme)
+reddit.com##.scrollerItem:has-text(r/SelfAwarewolves)
+reddit.com##.scrollerItem:has-text(r/ThatHappened)
+reddit.com##.scrollerItem:has-text(r/rareinsults)
+reddit.com##.scrollerItem:has-text(r/mildlyinfuriating)
+reddit.com##.scrollerItem:has-text(r/wholesomememes)
+reddit.com##.scrollerItem:has-text(r/facepalm)
+reddit.com##.scrollerItem:has-text(r/Aww)
+reddit.com##.scrollerItem:has-text(r/HermanCainAward)
+reddit.com##.scrollerItem:has-text(r/ThatHappened)
+reddit.com##.scrollerItem:has-text(r/NotHowGirlsWork)
+reddit.com##.scrollerItem:has-text(r/ToiletPaperUSA)
+reddit.com##.scrollerItem:has-text(r/TikTokCringe)
+reddit.com##.scrollerItem:has-text(r/entertainment)
+reddit.com##.scrollerItem:has-text(r/BestofRedditorUpdates)
+reddit.com##.scrollerItem:has-text(r/niceguys)
+reddit.com##.scrollerItem:has-text(r/politics)
+reddit.com##.scrollerItem:has-text(r/MadeMeSmile)
+reddit.com##.scrollerItem:has-text(r/selfie)
+reddit.com##.scrollerItem:has-text(r/lotr)
+reddit.com##.scrollerItem:has-text(r/lotr_memes)
+reddit.com##.scrollerItem:has-text(r/LOTR_on_Prime)
+reddit.com##.scrollerItem:has-text(r/RoastMe)
+reddit.com##.scrollerItem:has-text(r/Tumbler)
+
+
+! 2022-05-03 https://192.168.1.21:8443
+||192.168.1.21:8443/manage/react/images/dashboard/apDevices.png$image
+||192.168.1.21:8443/manage/react/images/dashboard/apWave.png$image
+||192.168.1.21:8443/manage/react/images/dashboard/apWave.png$image
+||192.168.1.21:8443/manage/react/images/dashboard/apDevices.png$image
+192.168.1.21##.css-4b375e.row__vxFP4Qo6
+
+!Facebook
+*.facebook.com
+*.fb.com
+*facebook.com
+*fb.watch
+
+!youtube 
+www.youtube.com###guide-content #endpoint[title="Shorts"]:upward(ytd-guide-entry-renderer)
+www.youtube.com###items #endpoint[title="Shorts"]:upward(ytd-mini-guide-entry-renderer)
+www.youtube.com##ytd-browse ytd-grid-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer:has-text(/\s(0:\d\d|1:0\d)\s/))
+www.youtube.com##ytd-browse ytd-rich-item-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer:has-text(/\s(0:\d\d|1:0\d)\s/))
+www.youtube.com##ytd-search ytd-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer:has-text(/\s(0:\d\d|1:0\d)\s/))
+www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer:has-text(/\s(0:\d\d|1:0\d)\s/))
+www.youtube.com##ytd-browse ytd-grid-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"])
+www.youtube.com##ytd-browse ytd-rich-item-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"])
+www.youtube.com##ytd-search ytd-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"])
+www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"])
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"]:upward(ytd-item-section-renderer)
+
