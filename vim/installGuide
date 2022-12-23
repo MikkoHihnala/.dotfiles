@@ -1,6 +1,0 @@
-Vundle plugin manager:  https://github.com/VundleVim/Vundle.vim
-
-
-plugins to install:
-youCompleteMe-vim
-NerdTree                https://vi.stackexchange.com/questions/5335/how-to-install-nerdtree-with-vundle
